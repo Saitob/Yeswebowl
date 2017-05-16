@@ -20,7 +20,7 @@ public class Tests {
         
         Assertions.assertTrue(yesWeBowl.makeThrow() instanceof int[]);
     }
-    
+
     /* User story 2
     */
     // Checks if calculateFrameScore calculates the frame score correctly.
@@ -35,11 +35,11 @@ public class Tests {
 
         int resultArr[] = {3, 10, 0, -8, 22};
 
-        Assertions.assertEquals(calculateFrameScore(testArr1), resultArr[0]);
-        Assertions.assertEquals(calculateFrameScore(testArr2), resultArr[1]);
-        Assertions.assertEquals(calculateFrameScore(testArr3), resultArr[2]);
-        Assertions.assertEquals(calculateFrameScore(testArr4), resultArr[3]);
-        Assertions.assertEquals(calculateFrameScore(testArr5), resultArr[4]);
+        Assertions.assertEquals(yesWeBowl.calculateFrameScore(testArr1), resultArr[0]);
+        Assertions.assertEquals(yesWeBowl.calculateFrameScore(testArr2), resultArr[1]);
+        Assertions.assertEquals(yesWeBowl.calculateFrameScore(testArr3), resultArr[2]);
+        Assertions.assertEquals(yesWeBowl.calculateFrameScore(testArr4), resultArr[3]);
+        Assertions.assertEquals(yesWeBowl.calculateFrameScore(testArr5), resultArr[4]);
 
     }
 

@@ -18,5 +18,11 @@ public class Bowling {
         return frame;
     }
 
+    // Calculates and returns the combined frame score
+    public int calculateFrameScore(int frame[]) {
+
+        return frame[0] + frame[1];
+    }
+
 
 }
