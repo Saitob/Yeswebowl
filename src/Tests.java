@@ -12,7 +12,7 @@ public class Tests {
 
         Bowling yesWeBowl = new Bowling();
         
-        Assertions.assertTrue(makeThrow() instanceof int[]);
+        Assertions.assertTrue(yesWeBowl.makeThrow() instanceof int[]);
     }
 
 
