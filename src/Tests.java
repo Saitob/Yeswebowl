@@ -22,6 +22,7 @@ public class Tests {
     }
 
     /* User story 2
+    ** Motivation: Calculate frame score adds the first throw of the frame with the second and returns the result. It can't get any simpler than this.
     */
     // Checks if calculateFrameScore calculates the frame score correctly.
     @Test
