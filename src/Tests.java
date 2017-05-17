@@ -117,6 +117,7 @@ public class Tests {
 
     /* User story 8
     ** Motivation:
+    ** Sidenote: Another viable and interesting option could have been to frames objects instead. Proceeding with current route for now.
     */
     // Checks the sum total for a game with two strikes in a row.
     @Test
