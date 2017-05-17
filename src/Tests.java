@@ -61,7 +61,6 @@ public class Tests {
     public void testCaseFour() {
 
         int expectedResult = 0;
-        int actualResult = 0;
 
         // Own calculation
         int tempGame[][] = yesWeBowl.makeGame();

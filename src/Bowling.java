@@ -37,5 +37,19 @@ public class Bowling {
         return game;
     }
 
+    // Calculates the score for the game
+    public int calculateGameScore(int game[][]) {
+
+        int scoreToReturn = 0;
+
+        for (int i = 0; i < 10; i++) {
+
+            scoreToReturn += calculateFrameScore(game[i]);
+
+        }
+
+        return scoreToReturn;
+    }
+
 
 }
