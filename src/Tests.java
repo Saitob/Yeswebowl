@@ -100,5 +100,20 @@ public class Tests {
 
     }
 
+    /* User story 7
+    ** Motivation: Previous implementation(5 & 6)  (accidentally) fullfilled both user stories.
+    */
+    // Checks the sum total for a game with a strike followed by a spare.
+    @Test
+    public void testCaseSeven() {
+
+        int tempGame[][] = {{10, 0},{3, 7},{7, 2},{3, 6},{4, 4},{5, 3},{3, 3},{4, 5},{8, 1},{2, 6}};
+
+        int expectedResult = 103;
+
+        Assertions.assertEquals(expectedResult, yesWeBowl.calculateGameScore(tempGame));
+
+    }
+
 }
 
