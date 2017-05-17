@@ -27,19 +27,18 @@ public class Tests {
     public void testCaseTwo() {
 
         int testArr1[] = {1,2};
-        int testArr2[] = {10,0};
+        int testArr2[] = {9,0};
         int testArr3[] = {0,0};
         int testArr4[] = {-1,-7};
         int testArr5[] = {11,11};
 
-        int resultArr[] = {3, 10, 0, -8, 22};
+        int resultArr[] = {3, 9, 0, -8, 22};
 
         Assertions.assertEquals(yesWeBowl.calculateFrameScore(testArr1), resultArr[0]);
         Assertions.assertEquals(yesWeBowl.calculateFrameScore(testArr2), resultArr[1]);
         Assertions.assertEquals(yesWeBowl.calculateFrameScore(testArr3), resultArr[2]);
         Assertions.assertEquals(yesWeBowl.calculateFrameScore(testArr4), resultArr[3]);
         Assertions.assertEquals(yesWeBowl.calculateFrameScore(testArr5), resultArr[4]);
-
     }
 
     /* User story 3
@@ -50,7 +49,6 @@ public class Tests {
     public void testCaseThree() {
 
         Assertions.assertEquals(yesWeBowl.makeGame().length, 10);
-
     }
 
     /* User story 4
@@ -60,25 +58,33 @@ public class Tests {
     @Test
     public void testCaseFour() {
 
-        int expectedResult = 0;
+        int expectedResult = 81;
 
         // Own calculation
-        int tempGame[][] = yesWeBowl.makeGame();
-
-        for (int i = 0; i < 10; i++) {
-
-            for (int j = 0; j < 2; j++) {
-
-                expectedResult += tempGame[i][j];
-
-            }
-
-        }
+        int tempGame[][] = {{1, 5},{3, 6},{7, 2},{3, 6},{4, 4},{5, 3},{3, 3},{4, 5},{8, 1},{2, 6}};
 
         // Assert comparison
         Assertions.assertEquals(expectedResult, yesWeBowl.calculateGameScore(tempGame));
+    }
+
+    /* User story 5
+    **
+    */
+    //
+    @Test
+    public void testCaseFive() {
+
+        int tempGame[][] = {{1, 5},{3, 6},{7, 2},{3, 6},{4, 4},{5, 3},{3, 3},{4, 5},{8, 1},{2, 6}};
+
+        tempGame[0][0] = 10;
+        tempGame[0][1] = 0;
+
+        int expectedResult = 96;
+
+        Assertions.assertEquals(expectedResult, yesWeBowl.calculateGameScore(tempGame));
 
     }
+
 
 }
 

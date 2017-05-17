@@ -11,10 +11,8 @@ public class Bowling {
         int frame[] = new int[2];
 
         for (int i = 0; i < 2; i++) {
-
             frame[i] = ThreadLocalRandom.current().nextInt(0, 10 + 1);
         }
-
         return frame;
     }
 
@@ -30,10 +28,8 @@ public class Bowling {
         int game[][] = new int[10][2];
 
         for (int i = 0; i < 10; i++) {
-
             game[i] = makeThrow();
         }
-
         return game;
     }
 
@@ -43,9 +39,7 @@ public class Bowling {
         int scoreToReturn = 0;
 
         for (int i = 0; i < 10; i++) {
-
             scoreToReturn += calculateFrameScore(game[i]);
-
         }
 
         return scoreToReturn;
