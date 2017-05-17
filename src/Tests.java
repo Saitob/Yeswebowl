@@ -68,7 +68,7 @@ public class Tests {
     }
 
     /* User story 5
-    **
+    ** Motivation: Took example game and injected strike. Simple as that.
     */
     //
     @Test
