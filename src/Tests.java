@@ -79,7 +79,7 @@ public class Tests {
         tempGame[0][0] = 10;
         tempGame[0][1] = 0;
 
-        int expectedResult = 96;
+        int expectedResult = 94;
 
         Assertions.assertEquals(expectedResult, yesWeBowl.calculateGameScore(tempGame));
 

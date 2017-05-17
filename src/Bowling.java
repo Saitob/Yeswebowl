@@ -40,6 +40,11 @@ public class Bowling {
 
         for (int i = 0; i < 10; i++) {
             scoreToReturn += calculateFrameScore(game[i]);
+
+            if (game[i][0] == 10 && i != 10){
+                scoreToReturn += calculateFrameScore(game[i+1]);
+                System.out.println("STRIKE!");
+            }
         }
 
         return scoreToReturn;
