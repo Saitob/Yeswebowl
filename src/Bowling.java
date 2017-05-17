@@ -51,12 +51,19 @@ public class Bowling {
             if (game[i][0] == 10) {
                 strikeCounter++;
 
-                if(i < 9) {
+                if(i <= 7) {
                     scoreToReturn += game[i + 1][0];
 
                     if (game[i + 1][0] == 10) {
                         scoreToReturn += game[i + 2][0];
                     } else {
+                        scoreToReturn += game[i + 1][1];
+                    }
+                }
+                else if(i == 8){
+                    scoreToReturn += game[i + 1][0];
+
+                    if (game[9][0] != 10){
                         scoreToReturn += game[i + 1][1];
                     }
                 }
