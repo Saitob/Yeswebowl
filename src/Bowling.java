@@ -45,6 +45,11 @@ public class Bowling {
                 scoreToReturn += calculateFrameScore(game[i+1]);
                 System.out.println("STRIKE!");
             }
+
+            if (((game[i][0] + game[i][1]) == 10 && game[i][0] != 10) && i != 10){
+                scoreToReturn += game[i+1][0];
+                System.out.println("Spare!");
+            }
         }
 
         return scoreToReturn;
