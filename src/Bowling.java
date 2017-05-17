@@ -24,6 +24,7 @@ public class Bowling {
         return frame[0] + frame[1];
     }
 
+    // Creates a game array and fills it with frames.
     public int[][] makeGame() {
 
         int game[][] = new int[10][2];

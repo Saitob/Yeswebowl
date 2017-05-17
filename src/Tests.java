@@ -43,7 +43,7 @@ public class Tests {
     }
 
     /* User story 3
-    **
+    ** Movitivation: We create a 2d array and fill it with 10 frames. It is efficient.
     */
     // Check if a game consists of 10 frames
     @Test
