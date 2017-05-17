@@ -47,10 +47,11 @@ public class Bowling {
         for (int i = 0; i < 10; i++) {
             scoreToReturn += calculateFrameScore(game[i]);
 
-
+            // Checks for strikes on the frame
             if (game[i][0] == 10) {
                 strikeCounter++;
 
+                // Strikes on frame 9 and 10 need special handling.
                 if(i <= 7) {
                     scoreToReturn += game[i + 1][0];
 
@@ -59,7 +60,7 @@ public class Bowling {
                     } else {
                         scoreToReturn += game[i + 1][1];
                     }
-                }
+                }       // Handling for strikes on frame 8 so as not to go oob.
                 else if(i == 8){
                     scoreToReturn += game[i + 1][0];
 
@@ -74,8 +75,10 @@ public class Bowling {
                 strikeCounter = 0;
             }
 
-            if ((game[i][0] + game[i][1]) == 10 && game[i][0] != 10) {
-                scoreToReturn += game[i + 1][0];
+            if ((calculateFrameScore(game[i]) == 10 && game[i][0] != 10)) {
+                if(i != 9) {
+                    scoreToReturn += game[i + 1][0];
+                }
                 System.out.println("Spare!");
             }
 

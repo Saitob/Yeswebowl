@@ -117,7 +117,7 @@ public class Tests {
 
     /* User story 8
     ** Motivation: Probably not the simplest solution, but the simplest we could come up with for now.
-    * *
+    **
     ** Sidenote: Another viable and interesting option could have been to frames objects instead. Proceeding with current route for now.
     */
     // Checks the sum total for a game with two strikes in a row.
@@ -133,16 +133,16 @@ public class Tests {
     }
 
     /* User story 9
-    ** Motivation:
+    ** Motivation: Spare function already handled 2 spares in a row. This was done by checking if the frame score was 10(but not a strike) prior to the spare calculation. Found error if spare was on last frame. Solved by adding exception for spare on last frame.
     **
     */
     // Checks the sum total for a game with two spares in a row.
     @Test
     public void testCaseNine() {
 
-        int tempGame[][] = {{8, 2},{5, 5},{7, 2},{3, 6},{4, 4},{5, 3},{3, 3},{4, 5},{8, 1},{2, 6}};
+        int tempGame[][] = {{8, 2},{5, 5},{7, 2},{3, 6},{4, 4},{5, 3},{3, 3},{4, 5},{8, 1},{4, 6}};
 
-        int expectedResult = 98;
+        int expectedResult = 100;
 
         Assertions.assertEquals(expectedResult, yesWeBowl.calculateGameScore(tempGame));
 
