@@ -12,6 +12,11 @@ public class Bowling {
 
         for (int i = 0; i < 2; i++) {
             frame[i] = ThreadLocalRandom.current().nextInt(0, 10 + 1);
+
+            if (frame[0] == 10){
+                frame[1] = 0;
+                i++;
+            }
         }
         return frame;
     }
