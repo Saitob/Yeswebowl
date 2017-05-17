@@ -115,5 +115,20 @@ public class Tests {
 
     }
 
+    /* User story 8
+    ** Motivation:
+    */
+    // Checks the sum total for a game with two strikes in a row.
+    @Test
+    public void testCaseEight() {
+
+        int tempGame[][] = {{10, 0},{10, 0},{7, 2},{3, 6},{4, 4},{5, 3},{3, 3},{4, 5},{8, 1},{2, 6}};
+
+        int expectedResult = 112;
+
+        Assertions.assertEquals(expectedResult, yesWeBowl.calculateGameScore(tempGame));
+
+    }
+
 }
 
