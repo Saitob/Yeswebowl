@@ -52,5 +52,34 @@ public class Tests {
         Assertions.assertEquals(yesWeBowl.makeGame().length, 10);
 
     }
+
+    /* User story 4
+    **
+    */
+    // Checks if the sum score of a full game is correct
+    @Test
+    public void testCaseFour() {
+
+        int expectedResult = 0;
+        int actualResult = 0;
+
+        // Own calculation
+        int tempGame[][] = yesWeBowl.makeGame();
+
+        for (int i = 0; i < 10; i++) {
+
+            for (int j = 0; j < 2; j++) {
+
+                expectedResult += tempGame[i][j];
+
+            }
+
+        }
+
+        // Assert comparison
+        Assertions.assertEquals(expectedResult, yesWeBowl.calculateGameScore(tempGame));
+
+    }
+
 }
 
