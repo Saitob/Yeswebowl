@@ -18,8 +18,8 @@
           <file leaf-file-name="Bowling.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Bowling.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="78" selection-end-column="45" />
+                <state relative-caret-position="522">
+                  <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -45,8 +45,8 @@
           <file leaf-file-name="Tests.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Tests.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="502">
-                  <caret line="118" column="19" lean-forward="false" selection-start-line="118" selection-start-column="19" selection-end-line="118" selection-end-column="102" />
+                <state relative-caret-position="369">
+                  <caret line="136" column="6" lean-forward="true" selection-start-line="136" selection-start-column="6" selection-end-line="136" selection-end-column="6" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                     <element signature="imports" expanded="true" />
@@ -462,9 +462,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Tests - 2017.05.17 at 20h 45m 28s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Tests - 2017.05.17 at 20h 46m 05s.xml">
       <configuration name="Tests" configurationId="JUnit" />
     </history-entry>
@@ -490,6 +487,9 @@
       <configuration name="Tests" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Tests - 2017.05.17 at 21h 29m 51s.xml">
+      <configuration name="Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests - 2017.05.17 at 21h 33m 48s.xml">
       <configuration name="Tests" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -658,8 +658,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Bowling.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="78" selection-end-column="45" />
+        <state relative-caret-position="522">
+          <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
           <folding />
         </state>
       </provider>
