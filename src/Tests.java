@@ -16,8 +16,6 @@ public class Tests {
     @Test
     public void testCaseUno(){
 
-
-        
         Assertions.assertTrue(yesWeBowl.makeThrow() instanceof int[]);
     }
 
@@ -44,5 +42,15 @@ public class Tests {
 
     }
 
+    /* User story 3
+    **
+    */
+    // Check if a game consists of 10 frames
+    @Test
+    public void testCaseThree() {
+
+        Assertions.assertEquals(yesWeBowl.makeGame().length, 10);
+
+    }
 }
 
