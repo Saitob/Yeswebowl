@@ -54,7 +54,7 @@ public class Tests {
     }
 
     /* User story 4
-    **
+    ** Motivation: We iterate through a loop 10 times and make throws then loop to calculate the game score. Simple and easy.
     */
     // Checks if the sum score of a full game is correct
     @Test
