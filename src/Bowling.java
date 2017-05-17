@@ -24,5 +24,17 @@ public class Bowling {
         return frame[0] + frame[1];
     }
 
+    public int[][] makeGame() {
+
+        int game[][] = new int[10][2];
+
+        for (int i = 0; i < 10; i++) {
+
+            game[i] = makeThrow();
+        }
+
+        return game;
+    }
+
 
 }
