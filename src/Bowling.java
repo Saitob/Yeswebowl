@@ -41,14 +41,16 @@ public class Bowling {
         for (int i = 0; i < 10; i++) {
             scoreToReturn += calculateFrameScore(game[i]);
 
-            if (game[i][0] == 10 && i != 10){
-                scoreToReturn += calculateFrameScore(game[i+1]);
-                System.out.println("STRIKE!");
-            }
+            if(i != 10) {
+                if (game[i][0] == 10) {
+                    scoreToReturn += calculateFrameScore(game[i + 1]);
+                    System.out.println("STRIKE!");
+                }
 
-            if (((game[i][0] + game[i][1]) == 10 && game[i][0] != 10) && i != 10){
-                scoreToReturn += game[i+1][0];
-                System.out.println("Spare!");
+                if ((game[i][0] + game[i][1]) == 10 && game[i][0] != 10) {
+                    scoreToReturn += game[i + 1][0];
+                    System.out.println("Spare!");
+                }
             }
         }
 

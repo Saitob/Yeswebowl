@@ -86,7 +86,7 @@ public class Tests {
     }
 
     /* User story 6
-    **
+    ** Motivation: Workable solution. Can't figure out how to make it better. See testCaseFive.
     */
     // Checks the sum total for a game with a spare.
     @Test
