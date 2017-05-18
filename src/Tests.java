@@ -42,13 +42,13 @@ public class Tests {
     }
 
     /* User story 3
-    ** Movitivation: We create a 2d array and fill it with 10 frames. It is efficient.
+    ** Movitivation: We create a 2d array and fill it with 10 frames plus one bonus frame with potential score. It is efficient.
     */
-    // Check if a game consists of 10 frames
+    // Check if a game consists of 10 frames, plus one bonus frame
     @Test
     public void testCaseThree() {
 
-        Assertions.assertEquals(yesWeBowl.makeGame().length, 10);
+        Assertions.assertEquals(yesWeBowl.makeGame().length, 11);
     }
 
     /* User story 4
@@ -144,7 +144,7 @@ public class Tests {
     @Test
     public void testCaseNine() {
 
-        int tempGame[][] = {{8, 2},{5, 5},{7, 2},{3, 6},{4, 4},{5, 3},{3, 3},{4, 5},{8, 1},{4, 6}};
+        int tempGame[][] = {{8, 2},{5, 5},{7, 2},{3, 6},{4, 4},{5, 3},{3, 3},{4, 5},{8, 1},{4, 6},{0,0}};
 
         int expectedResult = 100;
 
@@ -153,7 +153,7 @@ public class Tests {
     }
 
     /* User story 10
-    ** Motivation: g with current route for now.
+    ** Motivation:
     */
     // Checks the sum total for a game with a strike in the last frame +  a bonus throw.
     @Test

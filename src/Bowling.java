@@ -32,11 +32,24 @@ public class Bowling {
     // Creates a game array and fills it with frames.
     public int[][] makeGame() {
 
-        int game[][] = new int[10][2];
+        int game[][] = new int[11][2];
 
         for (int i = 0; i < 10; i++) {
             game[i] = makeThrow();
         }
+
+        if(calculateFrameScore(game[9]) == 10 && game[9][0] != 10){
+            game[10][0] = ThreadLocalRandom.current().nextInt(0, 10 + 1);
+            game[10][1] = 0;
+        }
+        else if(game[9][0] == 10){
+            game[10] = makeThrow();
+        }
+        else{
+            game[10][0] = 0;
+            game[10][1] = 0;
+        }
+
         return game;
     }
 
@@ -78,9 +91,8 @@ public class Bowling {
             }
 
             if ((calculateFrameScore(game[i]) == 10 && game[i][0] != 10)) {
-                if(i != 9) {
-                    scoreToReturn += game[i + 1][0];
-                }
+                scoreToReturn += game[i + 1][0];
+
                 System.out.println("Spare!");
             }
 
