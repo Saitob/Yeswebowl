@@ -192,5 +192,54 @@ public class Tests {
 
     }
 
+    /* User story 12
+    ** Motivation: Implemented the remaining test cases. Due to all test cases passing no more code needs to be implemented
+    **
+    */
+    // Checks the sum total for a game with a spare in the last frame +  a strike in the first bonus frame.
+    @Test
+    public void testCaseTwelve() {
+
+        int tempGame[][] = {{1, 5},{3, 6},{7, 2},{3, 6},{4, 4},{5, 3},{3, 3},{4, 5},{8, 1},{2, 8}, {10, 0}};
+
+        int expectedResult = 93;
+
+        Assertions.assertEquals(expectedResult, yesWeBowl.calculateGameScore(tempGame));
+
+    }
+
+    /* User story 13
+    ** Motivation: Implemented the remaining test cases. Due to all test cases passing no more code needs to be implemented
+    **
+    */
+    // Checks the sum total for a perfect game.
+    @Test
+    public void testCaseThirteen() {
+
+        int tempGame[][] = {{10, 0},{10, 0},{10, 0},{10, 0},{10, 0},{10, 0},{10, 0},{10, 0},{10, 0},{10, 0},{10, 10}};
+
+        int expectedResult = 300;
+
+        Assertions.assertEquals(expectedResult, yesWeBowl.calculateGameScore(tempGame));
+
+    }
+
+    /* User story 14
+    ** Motivation: Implemented the remaining test cases. Due to all test cases passing no more code needs to be implemented
+    **
+    */
+    // Checks the sum total for a 'real' game with multiple strikes and spares mixed in.
+    @Test
+    public void testCaseFourteen() {
+
+        int tempGame[][] = {{6, 3},{7, 1},{8, 2},{7, 2},{10, 0},{6, 2},{7, 3},{10, 0},{8, 0},{7, 3},{10, 0}};
+
+        int expectedResult = 135;
+
+        Assertions.assertEquals(expectedResult, yesWeBowl.calculateGameScore(tempGame));
+
+    }
+
+
 }
 

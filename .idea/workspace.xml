@@ -18,8 +18,8 @@
           <file leaf-file-name="Bowling.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Bowling.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="408">
-                  <caret line="74" column="21" lean-forward="true" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
+                <state relative-caret-position="391">
+                  <caret line="73" column="56" lean-forward="true" selection-start-line="73" selection-start-column="56" selection-end-line="73" selection-end-column="56" />
                   <folding />
                 </state>
               </provider>
@@ -45,8 +45,8 @@
           <file leaf-file-name="Tests.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Tests.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="355">
-                  <caret line="180" column="36" lean-forward="true" selection-start-line="177" selection-start-column="7" selection-end-line="180" selection-end-column="36" />
+                <state relative-caret-position="-87">
+                  <caret line="195" column="123" lean-forward="false" selection-start-line="195" selection-start-column="19" selection-end-line="195" selection-end-column="123" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                     <element signature="imports" expanded="true" />
@@ -462,12 +462,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Tests - 2017.05.17 at 21h 47m 57s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Tests - 2017.05.17 at 21h 48m 03s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Tests - 2017.05.18 at 20h 04m 59s.xml">
       <configuration name="Tests" configurationId="JUnit" />
     </history-entry>
@@ -490,6 +484,12 @@
       <configuration name="Tests" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Tests - 2017.05.18 at 21h 17m 23s.xml">
+      <configuration name="Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests - 2017.05.18 at 21h 32m 44s.xml">
+      <configuration name="Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests - 2017.05.18 at 21h 39m 01s.xml">
       <configuration name="Tests" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -668,16 +668,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Bowling.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="74" column="21" lean-forward="true" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
+        <state relative-caret-position="391">
+          <caret line="73" column="56" lean-forward="true" selection-start-line="73" selection-start-column="56" selection-end-line="73" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="180" column="36" lean-forward="true" selection-start-line="177" selection-start-column="7" selection-end-line="180" selection-end-column="36" />
+        <state relative-caret-position="-87">
+          <caret line="195" column="123" lean-forward="false" selection-start-line="195" selection-start-column="19" selection-end-line="195" selection-end-column="123" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
