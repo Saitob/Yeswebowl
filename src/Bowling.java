@@ -64,8 +64,8 @@ public class Bowling {
             if (game[i][0] == 10) {
                 strikeCounter++;
 
-                // Strikes on frame 9 and 10 need special handling.
-                if(i <= 7) {
+                // Strikes on frame 10 need special handling.
+                if(i <= 8) {
                     scoreToReturn += game[i + 1][0];
 
                     if (game[i + 1][0] == 10) {
@@ -73,13 +73,9 @@ public class Bowling {
                     } else {
                         scoreToReturn += game[i + 1][1];
                     }
-                }       // Handling for strikes on frame 8 so as not to go oob.
-                else if(i == 8){
-                    scoreToReturn += game[i + 1][0];
-
-                    if (game[9][0] != 10){
-                        scoreToReturn += game[i + 1][1];
-                    }
+                }       // Handling for strikes on frame 10 so as not to go oob.
+                else if(i == 9){
+                    scoreToReturn += game[i + 1][0] + game[i + 1][1];
                 }
             } else {
                 if (strikeCounter > 0) {
