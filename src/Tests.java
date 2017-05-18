@@ -172,7 +172,13 @@ public class Tests {
     }
 
     /* User story 11
-    ** Motivation:
+    ** Motivation: Removed oob prevention on frame 9 and 10. With only a slight altering of the strike
+    ** calculation on the 10th frame this caused the test case to pass and the calculation to come out correct.
+    **
+    ** The code was already made to stop calculating on frame 10. Removing some of the error handling preventing it
+    ** from going out of bounds previously on strikes and spares caused it to function correctly with the implementation
+    ** of the bonus frame. Because of this it is also at a point where it already clears the other remaining user stories.
+    ** Pretty much complete already.
     */
     // Checks the sum total for a game with a strike in the last frame +  a bonus throw.
     @Test
