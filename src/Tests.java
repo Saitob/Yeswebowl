@@ -254,7 +254,5 @@ public class Tests {
         Assertions.assertEquals(expectedResult, yesWeBowl.calculateGameScore(tempGame));
 
     }
-
-
 }
 
