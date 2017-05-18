@@ -153,9 +153,13 @@ public class Tests {
     }
 
     /* User story 10
-    ** Motivation:
+    ** Motivation: We added an extra frame to the game array to simulate the bonus round. It will add and count a new
+    ** score depending on if the last frame is a spare or not. We initially tried adding a seperate array for the bonus
+    ** but complications arose during testing leading us to merging the arrays together. We were already close to a
+    ** functional spare on the last frame. We just had to remove the old check preventing it from going out of bounds
+    ** from a spare on the 10th frame. Could find no meaningful changes to refactor into the project.
     */
-    // Checks the sum total for a game with a strike in the last frame +  a bonus throw.
+    // Checks the sum total for a game with a spare in the last frame +  a bonus throw.
     @Test
     public void testCaseTen() {
 
@@ -167,6 +171,20 @@ public class Tests {
 
     }
 
+    /* User story 11
+    ** Motivation:
+    */
+    // Checks the sum total for a game with a strike in the last frame +  a bonus throw.
+    @Test
+    public void testCaseEleven() {
+
+        int tempGame[][] = {{1, 5},{3, 6},{7, 2},{3, 6},{4, 4},{5, 3},{3, 3},{4, 5},{8, 1},{10, 0}, {7, 2}};
+
+        int expectedResult = 92;
+
+        Assertions.assertEquals(expectedResult, yesWeBowl.calculateGameScore(tempGame));
+
+    }
 
 }
 

@@ -5,8 +5,6 @@ import java.util.concurrent.ThreadLocalRandom;
  */
 public class Bowling {
 
-    int frameScore[] = new int[10];
-
     // Makes two throws, returns frame array with result
     public int[] makeThrow() {
 
@@ -89,13 +87,12 @@ public class Bowling {
                 }
                 strikeCounter = 0;
             }
-
+            // Handles calculating spare scores
             if ((calculateFrameScore(game[i]) == 10 && game[i][0] != 10)) {
                 scoreToReturn += game[i + 1][0];
 
                 System.out.println("Spare!");
             }
-
         }
         return scoreToReturn;
     }
