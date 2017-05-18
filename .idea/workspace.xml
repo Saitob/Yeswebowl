@@ -18,8 +18,8 @@
           <file leaf-file-name="Bowling.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Bowling.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="391">
-                  <caret line="73" column="56" lean-forward="true" selection-start-line="73" selection-start-column="56" selection-end-line="73" selection-end-column="56" />
+                <state relative-caret-position="-491">
+                  <caret line="84" column="46" lean-forward="true" selection-start-line="84" selection-start-column="46" selection-end-line="84" selection-end-column="46" />
                   <folding />
                 </state>
               </provider>
@@ -28,8 +28,8 @@
           <file leaf-file-name="Tests.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Tests.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="338">
-                  <caret line="150" column="0" lean-forward="false" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
+                <state relative-caret-position="247">
+                  <caret line="216" column="16" lean-forward="false" selection-start-line="216" selection-start-column="16" selection-end-line="216" selection-end-column="16" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                     <element signature="imports" expanded="true" />
@@ -45,8 +45,8 @@
           <file leaf-file-name="Tests.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Tests.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-87">
-                  <caret line="195" column="123" lean-forward="false" selection-start-line="195" selection-start-column="19" selection-end-line="195" selection-end-column="123" />
+                <state relative-caret-position="352">
+                  <caret line="250" column="0" lean-forward="true" selection-start-line="250" selection-start-column="0" selection-end-line="250" selection-end-column="0" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                     <element signature="imports" expanded="true" />
@@ -161,6 +161,48 @@
       <option name="MAIN_CLASS_NAME" value="Tests" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="Tests.testCaseThirteen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="PA1417 Lab5" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Tests" />
+      <option name="METHOD_NAME" value="testCaseThirteen" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="Tests.finalTestCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="PA1417 Lab5" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Tests" />
+      <option name="METHOD_NAME" value="finalTestCase" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -434,12 +476,16 @@
       <envs />
       <method />
     </configuration>
-    <list size="1">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="JUnit.Tests" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.Tests.testCaseThirteen" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.Tests.finalTestCase" />
     </list>
     <recent_temporary>
-      <list size="1">
+      <list size="3">
         <item index="0" class="java.lang.String" itemvalue="JUnit.Tests" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.Tests.finalTestCase" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.Tests.testCaseThirteen" />
       </list>
     </recent_temporary>
   </component>
@@ -462,35 +508,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Tests - 2017.05.18 at 20h 04m 59s.xml">
+    <history-entry file="Tests - 2017.05.18 at 21h 59m 02s.xml">
       <configuration name="Tests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests - 2017.05.18 at 20h 20m 17s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
+    <history-entry file="Tests_finalTestCase - 2017.05.18 at 21h 56m 37s.xml">
+      <configuration name="Tests.finalTestCase" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests - 2017.05.18 at 20h 22m 08s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
+    <history-entry file="Tests_finalTestCase - 2017.05.18 at 21h 56m 38s.xml">
+      <configuration name="Tests.finalTestCase" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests - 2017.05.18 at 20h 58m 12s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
+    <history-entry file="Tests_finalTestCase - 2017.05.18 at 21h 56m 40s.xml">
+      <configuration name="Tests.finalTestCase" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests - 2017.05.18 at 21h 13m 08s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
+    <history-entry file="Tests_finalTestCase - 2017.05.18 at 21h 56m 42s.xml">
+      <configuration name="Tests.finalTestCase" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests - 2017.05.18 at 21h 14m 53s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
+    <history-entry file="Tests_finalTestCase - 2017.05.18 at 21h 56m 44s.xml">
+      <configuration name="Tests.finalTestCase" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests - 2017.05.18 at 21h 16m 33s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
+    <history-entry file="Tests_finalTestCase - 2017.05.18 at 21h 56m 46s.xml">
+      <configuration name="Tests.finalTestCase" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests - 2017.05.18 at 21h 17m 23s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
+    <history-entry file="Tests_finalTestCase - 2017.05.18 at 21h 58m 35s.xml">
+      <configuration name="Tests.finalTestCase" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests - 2017.05.18 at 21h 32m 44s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
+    <history-entry file="Tests_finalTestCase - 2017.05.18 at 21h 58m 41s.xml">
+      <configuration name="Tests.finalTestCase" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests - 2017.05.18 at 21h 39m 01s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
+    <history-entry file="Tests_finalTestCase - 2017.05.18 at 21h 58m 49s.xml">
+      <configuration name="Tests.finalTestCase" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -506,7 +552,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15839493" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40232313" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -666,22 +712,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bowling.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="73" column="56" lean-forward="true" selection-start-line="73" selection-start-column="56" selection-end-line="73" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Tests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-87">
-          <caret line="195" column="123" lean-forward="false" selection-start-line="195" selection-start-column="19" selection-end-line="195" selection-end-column="123" />
+        <state relative-caret-position="247">
+          <caret line="216" column="16" lean-forward="false" selection-start-line="216" selection-start-column="16" selection-end-line="216" selection-end-column="16" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Bowling.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-491">
+          <caret line="84" column="46" lean-forward="true" selection-start-line="84" selection-start-column="46" selection-end-line="84" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>

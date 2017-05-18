@@ -240,6 +240,21 @@ public class Tests {
 
     }
 
+    /* User story ??
+    ** Motivation: Just a bit of fun.
+    */
+    // Checks if our random bowling game generator can avoid crashing.
+    @Test
+    public void finalTestCase() {
+
+        int tempGame[][] = yesWeBowl.makeGame();
+
+        int expectedResult = yesWeBowl.calculateGameScore(tempGame);
+
+        Assertions.assertEquals(expectedResult, yesWeBowl.calculateGameScore(tempGame));
+
+    }
+
 
 }
 

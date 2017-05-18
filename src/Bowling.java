@@ -77,12 +77,14 @@ public class Bowling {
                 else if(i == 9){
                     scoreToReturn += game[i + 1][0] + game[i + 1][1];
                 }
-            } else {
-                if (strikeCounter > 0) {
-                    announceStrike(strikeCounter);
-                }
+            } else{
                 strikeCounter = 0;
             }
+
+            if (strikeCounter > 0) {
+                announceStrike(strikeCounter);
+            }
+
             // Handles calculating spare scores
             if ((calculateFrameScore(game[i]) == 10 && game[i][0] != 10)) {
                 scoreToReturn += game[i + 1][0];
@@ -90,6 +92,7 @@ public class Bowling {
                 System.out.println("Spare!");
             }
         }
+
         return scoreToReturn;
     }
 
@@ -113,6 +116,18 @@ public class Bowling {
                 break;
             case 6:
                 System.out.println("WILD TURKEY!");
+                break;
+            case 7:
+                System.out.println("CRAZY TURKEY!");
+                break;
+            case 8:
+                System.out.println("MEGA TURKEY!");
+                break;
+            case 9:
+                System.out.println("ULTRA TURKEY!");
+                break;
+            case 10:
+                System.out.println("LUDICROUS STRIKE!");
                 break;
         }
 
