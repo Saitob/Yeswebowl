@@ -133,7 +133,11 @@ public class Tests {
     }
 
     /* User story 9
-    ** Motivation: Spare function already handled 2 spares in a row. This was done by checking if the frame score was 10(but not a strike) prior to the spare calculation. Found error if spare was on last frame. Solved by adding exception for spare on last frame.
+    ** Motivation: Uses 1 if case to find out if it's a spare and 1 if to avoid a spare on the last row.
+    **
+    ** Spare function already handled 2 spares in a row.
+    ** This was done by checking if the frame score was 10(but not a strike) prior to the spare calculation.
+    ** Found error if spare was on last frame. Solved by adding exception for spare on last frame.
     **
     */
     // Checks the sum total for a game with two spares in a row.
@@ -147,6 +151,22 @@ public class Tests {
         Assertions.assertEquals(expectedResult, yesWeBowl.calculateGameScore(tempGame));
 
     }
+
+    /* User story 10
+    ** Motivation: g with current route for now.
+    */
+    // Checks the sum total for a game with a strike in the last frame +  a bonus throw.
+    @Test
+    public void testCaseTen() {
+
+        int tempGame[][] = {{1, 5},{3, 6},{7, 2},{3, 6},{4, 4},{5, 3},{3, 3},{4, 5},{8, 1},{2, 8}, {7,0}};
+
+        int expectedResult = 90;
+
+        Assertions.assertEquals(expectedResult, yesWeBowl.calculateGameScore(tempGame));
+
+    }
+
 
 }
 

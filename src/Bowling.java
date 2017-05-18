@@ -5,6 +5,8 @@ import java.util.concurrent.ThreadLocalRandom;
  */
 public class Bowling {
 
+    int frameScore[] = new int[10];
+
     // Makes two throws, returns frame array with result
     public int[] makeThrow() {
 
